@@ -33,18 +33,19 @@
 
 #嵌套
 
-aliens = []
-for alien_number in range(30):
-    new_alien = {
-        'color' : 'green',
-        'name' : 'bob',
-    }
-    aliens.append(new_alien)
-#创建一个alien列表 每个元素是一个字典
-
-for alien in aliens[:3]:
-    if alien['color'] == 'green':
-        alien['color'] = 'yellow'
-        alien['name'] = 'nancy'
-
-print(aliens)
+# aliens = []
+# for alien_number in range(30):
+#     new_alien = {
+#         'color' : 'green',
+#         'name' : 'bob',
+#     }
+#     aliens.append(new_alien)
+# #创建一个alien列表 每个元素是一个字典
+#
+# for alien in aliens[:3]:
+#     if alien['color'] == 'green':
+#         alien['color'] = 'yellow'
+#         alien['name'] = 'nancy'
+#
+# print(aliens)
+# 字典可以嵌套字典
