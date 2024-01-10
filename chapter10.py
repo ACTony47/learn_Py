@@ -4,8 +4,8 @@
 # contents = path.read_text()
 # contents = contents.rstrip()
 # print(contents)
-from pathlib import Path
-#访问文件的各行
+# from pathlib import Path
+# 访问文件的各行
 # path = Path('text.txt')
 # contents = path.read_text().rstrip()
 # lines = contents.splitlines()
@@ -50,22 +50,37 @@ from pathlib import Path
 #     print(f"{e}")
 # else:
 #     print('file found!')
-file_list = [
+# file_list = [
+#
+# ]
+# while True:
+#     file_name = input("enter file name and enter q to exit")
+#     if file_name == 'q':
+#         break
+#     else:
+#         file_list.append(file_name)
+#
+# for name in file_list:
+#     path = Path(name)
+#     try:
+#         contents = path.read_text().splitlines()
+#     except FileNotFoundError as e:
+#         print(e)
+#     else:
+#         for pet in contents:
+#             print(f"{pet} is a {name[0:3]}")
 
-]
-while True:
-    file_name = input("enter file name and enter q to exit")
-    if file_name == 'q':
-        break
-    else:
-        file_list.append(file_name)
+#使用json来存储数据 JavaScript object notation
+# from pathlib import Path
+# import json
 
-for name in file_list:
-    path = Path(name)
-    try:
-        contents = path.read_text().splitlines()
-    except FileNotFoundError as e:
-        print(e)
-    else:
-        for pet in contents:
-            print(f"{pet} is a {name[0:3]}")
+# nums = [1,2,3,4,7]
+# path = Path('numbers.json')
+# contents = json.dumps(nums)
+# path.write_text(contents)
+
+# path = Path('numbers.json')
+# contents = path.read_text()
+# numbers = json.loads(contents)
+# print(numbers)
+
